@@ -2,7 +2,7 @@
 
 ## Introduction
 
-FTo solve the environment in this project, I've decided to implement the MADDPG algorithm. MADDG is a great choice for this environment due to the existence of multiple agents.
+To solve the environment in this project, I've decided to implement the MADDPG algorithm. MADDG is a great choice for this environment due to the existence of multiple agents.
 
 
 ## Learning Algorithm
@@ -14,11 +14,11 @@ In MADDPG, each agent has its own actor local, actor target, critic local and cr
 
 ## Training and Results
 
-![Training Results](https://github.com/abheesht17/TennisAgent/blob/master/Media/training.PNG)
+![Training Results](https://github.com/abheesht17/Tennis-Udacity-Deep-Reinforcement-Learning/blob/master/Media/training.PNG)
 
 I found training to be particularly challenging for my final MADDPG implementation. Initially, I had many issues getting the full implementation to work as expected. Even after the issues were fixed, the training was very unstable. A lot of hit and trail went into making the algorithm stable:
 
-![MADDPG Plot of Rewards](https://github.com/abheesht/TennisAgent/blob/master/Media/plot.PNG)
+![MADDPG Plot of Rewards](https://github.com/abheesht17/Tennis-Udacity-Deep-Reinforcement-Learning/blob/master/Media/plot.PNG)
 
 The results above show that the training process followed a stable pattern, and the 100-episode rolling max score never went significantly down after solving the environment.
 
